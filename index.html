@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MasterDeveloper — Premium Development Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">MasterDeveloper</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#services" class="btn-nav">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#why-us" class="mobile-link">Why Us</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+      <a href="#services" class="btn-nav mobile-btn">Get Started</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="particles" id="particles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Currently Accepting Clients
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line">MasterDeveloper</span>
+        <span class="title-sub">Development Services</span>
+      </h1>
+      <p class="hero-tagline">Expert Web, App & Bot Development — Built to Dominate the Digital World</p>
+      <div class="hero-btns">
+        <a href="#services" class="btn-primary">Explore Services</a>
+        <a href="#contact" class="btn-secondary">Contact Us</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">200+</span><span class="stat-label">Projects Done</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Years Experience</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Client Satisfaction</span></div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-label">About MasterDeveloper</div>
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-card-glow">
+            <img
+              src="https://cdn.discordapp.com/embed/avatars/5.png"
+              alt="MasterDeveloper"
+              class="owner-avatar"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+            />
+            <div class="about-icon-big" style="display:none">🚀</div>
+            <div class="about-badge-float">Currently Active</div>
+          </div>
+          <div class="about-metrics">
+            <div class="metric"><span>200+</span><p>Projects</p></div>
+            <div class="metric"><span>5+</span><p>Years</p></div>
+            <div class="metric"><span>50+</span><p>Clients</p></div>
+            <div class="metric"><span>24/7</span><p>Support</p></div>
+          </div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title">Who Are We?</h2>
+          <p>We are <strong>MasterDeveloper</strong> — a team of passionate developers and digital architects. We specialize in building high-performance websites, powerful web applications, custom Discord bots, and fully managed VPS setups.</p>
+          <p>From a simple landing page to a full-stack enterprise application, we deliver solutions that are fast, secure, and built to scale. Every project is crafted with precision and purpose.</p>
+          <div class="about-tags">
+            <span>⚡ Fast Delivery</span>
+            <span>🔒 Secure Code</span>
+            <span>📱 Responsive</span>
+            <span>🛠 Custom Built</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-label">Development Services</div>
+      <h2 class="section-title center">Our Services</h2>
+      <p class="section-sub">Professional development solutions tailored to your needs — from websites to bots to full VPS setups</p>
+      <div class="services-grid">
+
+        <!-- Card 1: Web Development -->
+        <div class="service-card" data-aos="fade-up" data-delay="0">
+          <div class="card-thumb">
+            <div class="thumb-bg thumb-1"></div>
+            <div class="thumb-icon">🌐</div>
+            <div class="card-tag">Web Dev</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Website Development</h3>
+            <div class="card-price">
+              <span class="price-label">Starting at</span><br/>
+              <span class="price-currency">PKR</span>
+              <span class="price-amount">15,000</span>
+            </div>
+            <p class="card-desc">Custom websites built from scratch — landing pages, portfolios, business sites, and full web apps using modern tech stacks.</p>
+            <ul class="card-features">
+              <li>✓ Custom UI/UX Design</li>
+              <li>✓ Mobile Responsive</li>
+              <li>✓ SEO Optimized</li>
+              <li>✓ Fast Load Times</li>
+            </ul>
+            <a href="https://discord.com/users/1249975181414240262" class="btn-card" target="_blank">Order Now</a>
+          </div>
+        </div>
+
+        <!-- Card 2: App Development -->
+        <div class="service-card" data-aos="fade-up" data-delay="100">
+          <div class="card-thumb">
+            <div class="thumb-bg thumb-2"></div>
+            <div class="thumb-icon">📱</div>
+            <div class="card-tag">App Dev</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">App Development</h3>
+            <div class="card-price">
+              <span class="price-label">Starting at</span><br/>
+              <span class="price-currency">PKR</span>
+              <span class="price-amount">25,000</span>
+            </div>
+            <p class="card-desc">Full-cycle mobile and desktop app development for Android, iOS, and cross-platform — built to perform and scale.</p>
+            <ul class="card-features">
+              <li>✓ Android & iOS Apps</li>
+              <li>✓ Cross-Platform Support</li>
+              <li>✓ API Integration</li>
+              <li>✓ Lifetime Support</li>
+            </ul>
+            <a href="https://discord.com/users/1249975181414240262" class="btn-card" target="_blank">Order Now</a>
+          </div>
+        </div>
+
+        <!-- Card 3: Discord Bot Development -->
+        <div class="service-card featured" data-aos="fade-up" data-delay="200">
+          <div class="featured-badge">Most Popular</div>
+          <div class="card-thumb">
+            <div class="thumb-bg thumb-3"></div>
+            <div class="thumb-icon">🤖</div>
+            <div class="card-tag">Bot Dev</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Discord Bot Development</h3>
+            <div class="card-price">
+              <span class="price-label">Starting at</span><br/>
+              <span class="price-currency">PKR</span>
+              <span class="price-amount">8,000</span>
+            </div>
+            <p class="card-desc">Custom Discord bots built to your exact specs — moderation, economy, music, ticketing, leveling, and anything you need.</p>
+            <ul class="card-features">
+              <li>✓ Slash Commands</li>
+              <li>✓ Custom Features</li>
+              <li>✓ Dashboard Panel</li>
+              <li>✓ 24/7 Hosting Available</li>
+            </ul>
+            <a href="https://discord.com/users/1249975181414240262" class="btn-card" target="_blank">Order Now</a>
+          </div>
+        </div>
+
+        <!-- Card 4: Telegram Bot Development -->
+        <div class="service-card" data-aos="fade-up" data-delay="300">
+          <div class="card-thumb">
+            <div class="thumb-bg thumb-4"></div>
+            <div class="thumb-icon">✈️</div>
+            <div class="card-tag">Bot Dev</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Telegram Bot Development</h3>
+            <div class="card-price">
+              <span class="price-label">Starting at</span><br/>
+              <span class="price-currency">PKR</span>
+              <span class="price-amount">6,000</span>
+            </div>
+            <p class="card-desc">Powerful Telegram bots for automation, notifications, payments, group management, and custom workflows.</p>
+            <ul class="card-features">
+              <li>✓ Inline Keyboards</li>
+              <li>✓ Payment Integration</li>
+              <li>✓ Group Management</li>
+              <li>✓ Auto Notifications</li>
+            </ul>
+            <a href="https://discord.com/users/1249975181414240262" class="btn-card" target="_blank">Order Now</a>
+          </div>
+        </div>
+
+        <!-- Card 5: Backend / API Development -->
+        <div class="service-card" data-aos="fade-up" data-delay="400">
+          <div class="card-thumb">
+            <div class="thumb-bg thumb-5"></div>
+            <div class="thumb-icon">⚙️</div>
+            <div class="card-tag">Backend</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Backend & API Development</h3>
+            <div class="card-price">
+              <span class="price-label">Starting at</span><br/>
+              <span class="price-currency">PKR</span>
+              <span class="price-amount">20,000</span>
+            </div>
+            <p class="card-desc">Scalable REST APIs, databases, authentication systems, and server-side logic built with Node.js, Python, or your preferred stack.</p>
+            <ul class="card-features">
+              <li>✓ REST & GraphQL APIs</li>
+              <li>✓ Database Design</li>
+              <li>✓ Auth & Security</li>
+              <li>✓ Cloud Deployment</li>
+            </ul>
+            <a href="https://discord.com/users/1249975181414240262" class="btn-card" target="_blank">Order Now</a>
+          </div>
+        </div>
+
+        <!-- Card 6: VPS Setup & Management -->
+        <div class="service-card" data-aos="fade-up" data-delay="500">
+          <div class="card-thumb">
+            <div class="thumb-bg thumb-6"></div>
+            <div class="thumb-icon">🖥️</div>
+            <div class="card-tag">VPS Setup</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">VPS Setup & Management</h3>
+            <div class="card-price">
+              <span class="price-label">Starting at</span><br/>
+              <span class="price-currency">PKR</span>
+              <span class="price-amount">5,000</span>
+            </div>
+            <p class="card-desc">Get your own fully managed & configured VPS — server setup, panel installation, security hardening, and deployment, all done by us.</p>
+            <ul class="card-features">
+              <li>✓ Full Server Configuration</li>
+              <li>✓ Panel Installation (Pterodactyl / cPanel)</li>
+              <li>✓ Security Hardening & Firewall</li>
+              <li>✓ Ongoing Management Available</li>
+            </ul>
+            <a href="https://discord.com/users/1249975181414240262" class="btn-card" target="_blank">Order Now</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="section-label">Why Choose Us</div>
+      <h2 class="section-title center">Results That Speak</h2>
+      <div class="why-grid">
+        <div class="why-card" data-aos="fade-up">
+          <div class="why-icon">⚡</div>
+          <h3>Lightning Fast Delivery</h3>
+          <p>We respect your deadlines. Projects are delivered on time with clean, optimized code — no delays, no excuses.</p>
+        </div>
+        <div class="why-card" data-aos="fade-up">
+          <div class="why-icon">🔒</div>
+          <h3>Secure by Default</h3>
+          <p>Every solution is built with security-first principles — input validation, encrypted data, and hardened deployments.</p>
+        </div>
+        <div class="why-card" data-aos="fade-up">
+          <div class="why-icon">🎯</div>
+          <h3>100% Custom Built</h3>
+          <p>No templates, no copy-paste. Every project is built from scratch to match your exact requirements and vision.</p>
+        </div>
+        <div class="why-card" data-aos="fade-up">
+          <div class="why-icon">🛠</div>
+          <h3>Full Aftercare Support</h3>
+          <p>We don't disappear after delivery. Get ongoing support, bug fixes, and updates to keep your project running perfectly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-label">Contact</div>
+      <h2 class="section-title center">Get In Touch</h2>
+      <p class="section-sub">Have a project in mind? Drop a message and we'll get back to you within 24 hours.</p>
+      <div class="contact-grid">
+        <div class="contact-channels">
+          <a href="https://wa.me/923001234567" class="channel-card" target="_blank">
+            <div class="channel-icon">💬</div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>Fastest response — usually within minutes</p>
+            </div>
+          </a>
+          <a href="mailto:hello@masterdeveloper.dev" class="channel-card" target="_blank">
+            <div class="channel-icon">📧</div>
+            <div>
+              <h4>Email</h4>
+              <p>hello@masterdeveloper.dev</p>
+            </div>
+          </a>
+          <a href="https://discord.com/users/1249975181414240262" class="channel-card" target="_blank">
+            <div class="channel-icon">🎮</div>
+            <div>
+              <h4>Discord</h4>
+              <p>MasterDeveloper</p>
+            </div>
+          </a>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <select>
+            <option value="" disabled selected>Select a Service</option>
+            <option>Website Development</option>
+            <option>App Development</option>
+            <option>Discord Bot Development</option>
+            <option>Telegram Bot Development</option>
+            <option>Backend & API Development</option>
+            <option>VPS Setup & Management</option>
+          </select>
+          <textarea placeholder="Tell us about your project..." rows="4" required></textarea>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo"><span class="logo-icon">⚡</span><span class="logo-text">MasterDeveloper</span></div>
+          <p>Premium development services — websites, apps, bots, and VPS solutions built to dominate.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <a href="#services">Website Development</a>
+          <a href="#services">App Development</a>
+          <a href="#services">Discord Bot Dev</a>
+          <a href="#services">VPS Setup</a>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <a href="https://wa.me/923001234567">WhatsApp</a>
+          <a href="mailto:hello@masterdeveloper.dev">Email Us</a>
+          <a href="https://discord.com/users/1249975181414240262">Discord</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 MasterDeveloper. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast">✅ Message Sent! We'll reply soon.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
